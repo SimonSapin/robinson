@@ -4,6 +4,7 @@ version = "0.0.1"
 dependencies = [
  "getopts 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)",
  "image 0.3.10 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pdf 0.1.0",
 ]
 
 [[package]]
@@ -58,6 +59,10 @@ dependencies = [
  "rand 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "rustc-serialize 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "pdf"
+version = "0.1.0"
 
 [[package]]
 name = "rand"
